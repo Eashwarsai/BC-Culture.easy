@@ -1,0 +1,124 @@
+.footer{
+    margin-top: 5rem;
+    background-image: url(https://culture.easy.xyz/wp-content/uploads/sites/6/2021/06/Background.png);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+  }
+  .flex-footer{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 2rem 1rem 2rem;
+    gap: 2rem;
+  }
+  .row{
+    display: flex;
+    width: 100%;
+  }
+  .col-container{
+    flex: 1;
+  }
+  .action{
+    width: 100%;
+    display: flex;
+    position: relative;
+    transform: translateY(-50%);
+    justify-content: center;
+    overflow: hidden;
+  }
+  .action-content{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: var(--primary-purple);
+    padding: 1.5rem 0.8rem;
+    width: 85%;
+    gap: 0.8rem;
+    flex-wrap: wrap;
+    border-radius: 1rem;
+  }
+  .question{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white;
+    flex-shrink: 0;
+  }
+  .action-buttons{
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    width: 100%;
+  }
+  .action-buttons button{
+    font-size: 0.8rem;
+    font-weight: 500;
+    border-radius: 0.4rem;
+    padding: 0.8rem 1.2rem;
+    border: none;
+  }
+  .signup{
+    color: var(--primary-purple);  
+  }
+  .schedule{
+    background-color: var(--ternary-purple);
+    color: white;
+  }
+  .col-container{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1rem;
+  }
+  .define-line{
+    font-size: 0.9rem;
+    font-weight: 200;
+    letter-spacing: 0px;
+    line-height: 1.5;
+    color: #E5E0F7;
+  }
+  .heading{
+    color:#E5E0F7;
+    font-size: 1.2rem;
+    font-weight: 500;
+    letter-spacing: 0.2rem;
+  }
+  .getdetails{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: end;
+    justify-content: start;
+    gap: 0.5rem;
+    width: 100%;
+  }
+  .getdetails input{
+    background-color:  #3E3E3E;
+    color: #E5E0F7;
+    border-radius: 0.3rem; 
+    padding: 0.5rem;
+    border: none;
+    gap: 0.5rem;
+    height: 1.5rem;
+    width: 95%;
+    overflow: hidden;
+  }
+  .getdetails input:focus{
+    outline: none;
+  }
+  .listItem{
+    color: #8D8B97;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5;
+  }
+  .start-button{
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+  }
+  .subscribe{
+    background-color: var(--primary-purple);
+    padding: 0.5rem 0.8rem;
+    border: none;
+    border-radius: 0.2rem;
+    color: white;
+  }

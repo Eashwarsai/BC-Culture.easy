@@ -1,0 +1,21 @@
+.process{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 0.8rem;
+}
+.process img{
+    width: 100%;
+}
+.steps{
+    width: 100%;
+    
+}
+.step{
+    padding: 1rem;
+}
+.line{
+    font-size: 1.5rem;  
+}

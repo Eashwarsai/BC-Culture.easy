@@ -1,0 +1,43 @@
+.different{
+    width: 100%;
+}
+.row1{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem 1.5rem ;
+    margin: 1rem;
+    width: 100%;
+}
+.row2{
+    display: none;
+}
+.hide{
+    display: none;
+}
+.primary-cell{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    min-height: 100%;
+}
+.secondary-cell{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.cell{
+    flex: 1;
+}
+.secondary-cell img{
+    width: 100%;
+    align-items: center;
+    height:fit-content;
+}
+.para{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    letter-spacing: -0.1px;
+}

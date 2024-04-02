@@ -1,0 +1,107 @@
+:root{
+    --primary-purple:#5330C9;
+    --secondary-purple:#E5E0F7;
+    --primary-grey:#939393;
+    --ternary-purple:#7F66D6;
+}
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "Red Hat Display", Sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    width: 100%;
+}
+.overlay{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.image-container img{
+   width: 100%;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+    width: 100%;
+    /* padding: 0.5rem; */
+    
+}
+.primary-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.primary-heading{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+.visible{
+    display: block;
+}
+.info{
+    text-align: center;
+    color: #3E3E3E;
+    display: none;
+    font-family: "Red Hat Display", Sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+.info-feature{
+    text-align: center;
+    color: #3E3E3E;
+    font-family: "Red Hat Display", Sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+.info-button{
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: var(--primary-purple) ;
+    padding: 15px 25px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    margin-top: 2rem;
+}
+.info-button-1{
+    display: none;
+}
+.stride-container{
+    display: flex;
+    justify-content: center;
+    height: 8rem;
+    width: 100%;
+}
+.stride{
+    width: 98%;
+    height: 1.5rem;
+    background-color: var(--secondary-purple);
+    transform: rotate(5deg);
+    transform-origin: 50% 50%;
+}
+.secondary-heading{
+    color: var(--primary-purple);
+    margin: 1rem;
+}
+
+.ternary-heading{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 1rem 0;
+}

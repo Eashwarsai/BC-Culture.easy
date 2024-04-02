@@ -1,0 +1,131 @@
+@media screen and (min-width:768px) {
+    .hamburger-buttons{
+        display: flex;
+        align-items: center;
+    }
+    #buttons{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .featureDisplay{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 1.5rem 3.2rem;
+        padding-top: 1.5rem;
+        gap: 1rem 0;
+        box-shadow: 0 0 5px 2px #ccc;
+        width: 60%;
+        height: 100%;
+        overflow: hidden;
+        background-color: white;
+        
+    }
+    .featureDisplay img{
+        width: 50%;
+        height: 100%;
+        margin-bottom: -12%;
+    }
+    .featureList{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    border-radius: 0.25rem;
+    margin-bottom: 8%;
+    }
+    .info-button-1 , .info ,.hide{
+        display: block;
+    }
+    .info-button-2,.steps,.m-awards,.featureSlide{
+        display: none;
+    }
+    .secondary-button{
+        color: black;
+    }
+    .row1,.row2{
+        display: flex;
+        flex-direction: row;
+        gap: 1.5rem 1.5rem ;
+        margin: 1rem;
+    }
+    .primary-cell{
+        width: 40%;
+        align-items: start;
+        justify-content: space-between;
+    }
+    .secondary-cell{
+        width: 60%;
+    }
+    .awards{
+        display: flex;
+    }
+    .prices{
+        width: 8rem;
+    }
+    .getdetails{
+        flex-direction: column;
+        align-items: start;
+        gap: 0;
+    }
+    .action-content{
+        justify-content: space-around;
+    }
+    .question{
+        font-size: 1.8rem;
+        font-weight: 500;
+    }
+    .action-buttons{
+        width: max-content;
+        justify-content: space-between;
+    }
+    
+}
+@media screen and (min-width:1024px){
+    .hamburger{
+        display: none;
+    }
+    #navlinks{
+        display: flex;
+        gap: 10px 10px;
+        justify-content: space-between;
+    }
+    .links{
+        padding: 0px 10px;
+        line-height: 50px;
+        height: 50px;
+        font-size: 16px;
+        flex-shrink: 0;
+        font-weight: 900;
+    }
+}
+@media screen and (min-width:1200px) {
+    .features,.rows,.different,.customers-container{
+        width: 60%;
+    }
+    .action-content{
+        width: 50%;
+    }
+    .action{
+        width: 100%;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .col-container{
+        padding: 0.3rem;
+    }
+    .flex-footer{
+        width: 60%;
+        gap: 0.5rem;
+    }
+    .row{
+        max-width: 45%;
+        flex: 1;
+    }
+}
+

@@ -1,0 +1,43 @@
+.navcontainer{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    margin-bottom: 3rem;
+}
+.hamburger{
+    width: 1.4rem;
+    height: 1.4rem;
+}
+#navlinks{
+    display: none;
+}
+#logo img{
+    width: 50%;
+}
+#buttons{
+    display: none;
+}
+#login{
+    color: var(--primary-purple) ;
+    padding: 10px 20px;
+    border-radius: 2px ;
+    margin-right: 2rem;
+}
+.getstarted{
+    display: flex;
+    background-color: var(--secondary-purple);
+    color: var(--primary-purple);  
+    border-radius: 5px;
+    align-items: center;
+    flex-shrink: 0;
+    padding: 10px 20px;
+    height: 1rem;
+    width: fit-content;
+}

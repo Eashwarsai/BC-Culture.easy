@@ -1,0 +1,79 @@
+.customers{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.customers-container{
+    padding:1rem;
+    width:90%;
+    overflow:hidden;
+  }
+  .marquee{
+  display:flex;
+  position:relative;
+  align-items: center;
+  width:50%;
+  animation:scroll 10s linear infinite;
+  padding:3px;
+  }
+  .marquee img{
+    height: fit-content;
+    width: 50%;
+  }
+  .marquee:hover {
+      animation-play-state: paused
+  }
+  .awards,.m-awards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    overflow: hidden;
+  }
+  .m-awards{
+    text-align: center;
+  }
+  .rows{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+  }
+  .awards{
+   display: none; 
+  }
+  .m-rows{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+ 
+  }
+  .r1,.r2{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .r1 .prices , .r2 .prices {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+  }
+  .rows img{
+    width: 100%;
+    height: 100%;
+  }
+  .m-rows img{
+    width: 50%;
+  }
+  @keyframes scroll{
+    0% {left:800px;}
+    100% {left:-800px;}
+    }
